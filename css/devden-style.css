@@ -1,0 +1,105 @@
+/* CSS Document */
+body{
+	background: transparent;
+}
+p {
+  word-wrap: break-word;
+}
+
+.img-playlist{
+  max-width: 200px;
+}
+
+#wpcontent, #wpfooter {
+  background: white;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+    margin-bottom: 10px;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.dd-wrap {
+	width: 30%;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+
+.thumbnail {
+  margin-bottom: 15px;
+}
+
+img.logo {
+  margin-right: 10px;
+  margin-top: -12px;
+  height: 38px;
+  margin-bottom: -10px;
+}
+
+a.accordion-toggle {
+  /*display: inline-block;
+  width: 100%;
+  text-decoration: none;*/
+  padding: 5px;
+}
+
+#channel-nav {
+  	margin-top: -3px;
+}
+
+
+.Rectangle_1 {
+  background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  position: absolute;
+  left: 198px;
+  top: 197px;
+  width: 705px;
+  height: 705px;
+  z-index: 2;
+}
+.vc_gitem-animated-block.vc_gitem-animate.vc_gitem-animate-flipFadeIn > div {
+  height: 226px;
+}
+
+
+/*#toggle {
+    width: 100px;
+    height: 100px;
+    background: #ccc;
+}*/
+
+.transition {
+    -webkit-transform: scale(1.6); 
+    -moz-transform: scale(1.6);
+    -o-transform: scale(1.6);
+    transform: scale(1.6);
+}
+#toggle {
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+}
+
+.truncate {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
